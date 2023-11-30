@@ -1,0 +1,26 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+:root{
+  --main-text-color:rgb(0, 0, 0);
+  --main-bg-color:rgb(255, 255, 255);
+  --main-btn-color:yellow;
+}
+.dark{
+  --main-text-color:white;
+  --main-bg-color: rgb(0, 0, 0);
+  transition: 500ms;
+  --main-btn-color:hotpink;
+}
+body{
+  transition: 500ms;
+  color: var(--main-text-color);
+  background-color: var(--main-bg-color);
+}
+button{
+  background-color: var(--main-btn-color);
+}
